@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+  background-repeat: no-repeat;
+  height: 100vh;
+    justify-content: center;
+    margin: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}                    
+
+
+form{
+    width: 320px;
+    margin-top: 80px;
+    padding: 30px;
+    margin: auto;
+    border: 2px  solid white;
+    border-radius: 20px ;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border-color: rgb(241, 220, 220);
+    background-color: rgb(238, 216, 216);
+    
+    border-width: 5px;
+    text-align: center;
+    color: rgb(21, 20, 20);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    height: 50vh;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    
+}
+
+.mar {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slide 5s linear infinite;
+}
+
+
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    cursor: pointer;
+    border: 10px;
+    display: block;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgb(54, 6, 6);
+    margin: auto;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 7px;
+    width: 100px;
+    padding: 04px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(120, 25, 25);
+}
+a{
+    color: blue;
+    cursor:grab;
+}
+a:hover{
+   color: rgb(45, 33, 33);
+}
